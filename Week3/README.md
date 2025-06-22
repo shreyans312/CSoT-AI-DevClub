@@ -13,7 +13,7 @@ I have put model .pkl files within the Week2 folder. The following is the sample
     "message": "We're unveiling something big!"
 }
 
-# **Simultaneous Testing of /generate and /predict **
+# Simultaneous Testing of /generate and /predict
 Like Prediction:
 ![image](https://github.com/user-attachments/assets/d4dc6d9a-5ff9-4ce7-9096-e4acfbcb0c81)
 
