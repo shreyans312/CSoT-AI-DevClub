@@ -8,9 +8,9 @@ import joblib
 import emoji
 import numpy as np
 
-model = joblib.load(r'c:\\Users\shrey\\OneDrive\\Desktop\\CSoT\\ShreyansJain_AI_Devclub\\Week3\\like_predictor.pkl')
-scaler = joblib.load(r'c:\\Users\shrey\\OneDrive\\Desktop\\CSoT\\ShreyansJain_AI_Devclub\\Week3\\scaler.pkl')
-company_avg_likes_lookup = joblib.load(r'c:\\Users\shrey\\OneDrive\\Desktop\\CSoT\\ShreyansJain_AI_Devclub\\Week3\\company_avg_likes.pkl')
+model = joblib.load(r'like_predictor.pkl')
+scaler = joblib.load(r'scaler.pkl')
+company_avg_likes_lookup = joblib.load(r'company_avg_likes.pkl')
 
 class AITweetGenerator:
     def __init__(self):
